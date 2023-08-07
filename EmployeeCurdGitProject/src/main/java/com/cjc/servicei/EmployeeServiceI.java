@@ -8,4 +8,8 @@ public interface EmployeeServiceI {
 
 	public Iterable<Employee> getAllEmployee();
 
+	public void deleteData(int id);
+
+	
+
 }

@@ -21,5 +21,11 @@ public class EmployeeImpl implements EmployeeServiceI{
 		return emprepo.findAll();
 		
 	}
+	@Override
+	public void deleteData(int id) {
+		emprepo.deleteById(id);
+		
+		
+	}
 
 }
